@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gatway-config
+  profiles:
+    #环境切换
+    active: dev
+    # 配置中心 的ip和端口
+    # 这个文件等价于 http://localhost:8888/uservice-dev.yml
+  cloud:
+    config:
+      uri: http://localhost:8888
