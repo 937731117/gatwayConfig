@@ -6,9 +6,6 @@
     clientTwo:
       path: /clientTwo/**
       service-id: clientTwo
-    clientThree:
-      path: /clientThree/**
-      service-id: clientThree
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
