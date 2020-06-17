@@ -1,8 +1,8 @@
 ﻿zuul:
   routes:
-    clientOne:
+    sharMainTeams:
       path: /sharMainTeams/**
-      service-id: sharMainTeams
+      service-id: share-main-teams
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
