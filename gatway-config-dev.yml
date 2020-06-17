@@ -3,6 +3,9 @@
     sharMainTeams:
       path: api/sharMainTeams/**
       service-id: share-main-teams
+    clientOne:
+      path: clientOne/**
+      service-id: clientOne
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
