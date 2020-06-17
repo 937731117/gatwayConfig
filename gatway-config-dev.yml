@@ -1,14 +1,8 @@
 ﻿zuul:
   routes:
     clientOne:
-      path: /clientOne/**
-      service-id: clientOne
-    clientTwo:
-      path: /clientTwo/**
-      service-id: clientTwo
-    clientThree:
-      path: /clientThree/**
-      service-id: clientThree
+      path: /sharMainTeams/**
+      service-id: sharMainTeams
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
